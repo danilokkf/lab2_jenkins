@@ -1,0 +1,10 @@
+# Visual Studio cache and temporary files
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+
+# User specific files
+*.user
