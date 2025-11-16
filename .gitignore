@@ -1,0 +1,10 @@
+.vs/
+x64/
+Debug/
+Release/
+packages/
+*.user
+*.pch
+*.ilk
+*.pdb
+test_report.xml
