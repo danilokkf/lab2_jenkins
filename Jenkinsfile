@@ -15,7 +15,7 @@ pipeline {
                 echo 'Building Project...'
                 // Крок для збірки проекту. 
                 // Ми використовуємо Rebuild та Debug конфігурацію для чистоти експерименту.
-                bat '\"C:\\Program Files\\Microsoft Visual Studio\\2026\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe\" test_repos.sln /t:Rebuild /p:Configuration=Debug /p:Platform=x64'
+                bat '\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe\" test_repos.sln /t:Rebuild /p:Configuration=Debug /p:Platform=x64'
             }
         }
 
